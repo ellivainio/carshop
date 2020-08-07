@@ -12,6 +12,8 @@ export default function Editcar(props) {
         brand: '', model: '', color: '', fuel: '', year: '', price: ''
     })
 
+
+    //New Comment
   const handleClickOpen = () => {
       setCar({brand: props.car.brand, model: props.car.model, color: props.car.color,
         fuel: props.car.fuel, year: props.car.year, price: props.car.price})
